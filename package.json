@@ -1,0 +1,26 @@
+{
+  "name": "react_app",
+  "version": "1.0.0",
+  "description": "This is React App",
+  "keywords": [
+    "react",
+    "namaste",
+    "react",
+    "monika"
+  ],
+  "homepage": "https://github.com/monika131001/Namaste-React#readme",
+  "bugs": {
+    "url": "https://github.com/monika131001/Namaste-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monika131001/Namaste-React.git"
+  },
+  "license": "ISC",
+  "author": "Monika Avhad",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  }
+}
