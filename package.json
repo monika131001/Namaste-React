@@ -2,13 +2,7 @@
   "name": "react_app",
   "version": "1.0.0",
   "description": "This is React App",
-  "keywords": [
-    "react",
-    "namaste",
-    "react",
-    "monika"
-    
-  ],
+  "keywords": [],
   "homepage": "https://github.com/monika131001/Namaste-React#readme",
   "bugs": {
     "url": "https://github.com/monika131001/Namaste-React/issues"
@@ -20,8 +14,17 @@
   "license": "ISC",
   "author": "Monika Avhad",
   "type": "commonjs",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
-  }
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
