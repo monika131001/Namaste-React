@@ -6,8 +6,8 @@ const Header = () => {
     <div className="header">
       <div className="logo-container">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWMPSjQKDYv554NKUe1-6W67lM89933vjtAQ&s://www.freepik.com/premium-vector/food-delivery-logo-design-template-restaurant-logo_25556255.htm"
           className="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnmCK_9W8VTV-jE5XEKjApge2fP1y1UUJXhg&s"
         />
       </div>
       <div className="nav-items">
@@ -25,7 +25,10 @@ const Header = () => {
 const Body = () => {
   return (
     <div className="body">
-      <div className="search">Search</div>
+      <div className="search">
+        <input className="search-input" placeholder="Search here..." />
+        <button>Search</button>
+      </div>
       <div className="res-container">
         <RestaurantCard />
         <RestaurantCard />
@@ -48,7 +51,7 @@ const RestaurantCard = () => {
     <div className="res-card" style={{ backgroundColor: "#f0f0f0" }}>
       <img
         className="res-logo"
-        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/7/2/8bf3bbe1-bccf-4067-9340-4ef0ce3caf28_4928d658-b637-4deb-8c57-b975167aaf4e.jpeg"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-z9uyr7lzKA1jeDE9okxnhvnXrYGM6txLGA&s"
       />
       <h3>Meghana Foods</h3>
       <h4>Biryani, North Indian, Asian</h4>
