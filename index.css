@@ -20,7 +20,6 @@
   padding: 10px;
   margin: 10px;
   cursor: pointer;
-
 }
 
 .res-container {
@@ -32,9 +31,8 @@
   margin: 5px;
   padding: 5px;
   width: 200px;
-  height: 300px;
+  border: 1px solid white;
 }
-
 
 .res-card:hover {
   border: 1px solid black;
