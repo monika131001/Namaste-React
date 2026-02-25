@@ -1,14 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import RestaurantCard from "./RestaurantCard";
 import resList from "../utils/mockData";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
 
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = () => {
+    const data = fetch();
+  }
+
   return (
     <div className="body">
       <div className="filter">
-        <button className="filter_btn" onClick={() => {
+        <button
+          className="filter_btn"
+          onClick={() => {
             const filteredList = listOfRestaurants.filter(
               (res) => res.info.avgRating > 4,
             );
